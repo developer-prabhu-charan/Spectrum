@@ -1,0 +1,14 @@
+/* App-level styles */
+
+/* Prevent layout shift from images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Focus ring styling */
+*:focus-visible {
+  outline: 2px solid rgba(14, 116, 144, 0.5);
+  outline-offset: 2px;
+  border-radius: 4px;
+}

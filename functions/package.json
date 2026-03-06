@@ -1,0 +1,14 @@
+{
+    "name": "spectrum-functions",
+    "description": "Cloud Functions for Spectrum Formulation",
+    "engines": {
+        "node": "18"
+    },
+    "main": "index.js",
+    "dependencies": {
+        "firebase-admin": "^12.0.0",
+        "firebase-functions": "^6.3.0",
+        "axios": "^1.8.4"
+    },
+    "private": true
+}
