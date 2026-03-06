@@ -18,7 +18,7 @@ import axios from "axios";
 
 const BACKEND_URL = window.location.hostname === "localhost"
   ? "http://localhost:8000"
-  : "RENDER_BACKEND_URL"; // ← Replace with your Render URL after deploying
+  : "https://spectrum-t9s8.onrender.com"; // ← Replace with your Render URL after deploying
 
 export const ContactForm = () => {
   const [visible, setVisible] = useState(false);
