@@ -16,9 +16,7 @@ import { toast } from "sonner";
 import { Send, MapPin, Mail, Phone } from "lucide-react";
 import axios from "axios";
 
-const BACKEND_URL = window.location.hostname === "localhost"
-  ? "http://localhost:8000"
-  : "https://spectrum-t9s8.onrender.com"; // ← Replace with your Render URL after deploying
+const BACKEND_URL = "https://spectrum-t9s8.onrender.com";
 
 export const ContactForm = () => {
   const [visible, setVisible] = useState(false);
