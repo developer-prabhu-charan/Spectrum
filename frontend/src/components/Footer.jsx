@@ -93,7 +93,7 @@ export const Footer = () => {
               </li>
               <li>
                 <a
-                  href={`tel:${footerData.phone}`}
+                  href={`tel:${footerData.phone.replace(/[^0-9+]/g, '')}`}
                   className="!text-sm text-slate-400 hover:text-teal-300 transition-colors duration-200"
                 >
                   {footerData.phone}
@@ -101,7 +101,7 @@ export const Footer = () => {
               </li>
               <li>
                 <a
-                  href={`tel:${footerData.phone2}`}
+                  href={`tel:${footerData.phone2.replace(/[^0-9+]/g, '')}`}
                   className="!text-sm text-slate-400 hover:text-teal-300 transition-colors duration-200"
                 >
                   {footerData.phone2}
