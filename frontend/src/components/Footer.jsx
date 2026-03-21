@@ -99,6 +99,14 @@ export const Footer = () => {
                   {footerData.phone}
                 </a>
               </li>
+              <li>
+                <a
+                  href={`tel:${footerData.phone2}`}
+                  className="!text-sm text-slate-400 hover:text-teal-300 transition-colors duration-200"
+                >
+                  {footerData.phone2}
+                </a>
+              </li>
             </ul>
           </div>
         </div>

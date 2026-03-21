@@ -220,6 +220,7 @@ export const footerData = {
   address: "12, Bhagwanpur - Haridwar Road, Makhanpur, Roorkee, Uttarakhand 247661",
   email: "spectrumcure@gmail.com",
   phone: "7037008882",
+  phone2: "+91-99993-20932",
   compliance: "WHO-Approved Pharmaceutical Manufacturing Facility",
   quickLinks: [
   { label: "About Us", href: "/about" },

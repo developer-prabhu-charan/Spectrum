@@ -143,7 +143,8 @@ export const ContactForm = () => {
                   </div>
                   <div>
                     <p className="text-sm font-semibold text-slate-800">Phone / WhatsApp</p>
-                    <p className="!text-sm text-slate-600">+91-99993-20932</p>
+                    <p className="!text-sm text-slate-600">{footerData.phone}</p>
+                    <p className="!text-sm text-slate-600">{footerData.phone2}</p>
                   </div>
                 </div>
               </div>
