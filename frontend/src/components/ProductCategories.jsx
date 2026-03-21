@@ -10,14 +10,15 @@ export const ProductCategories = () => {
   const ref = useRef(null);
 
   useEffect(() => {
+    const element = ref.current;
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) setVisible(true);
       },
       { threshold: 0.1 }
     );
-    if (ref.current) observer.observe(ref.current);
-    return () => ref.current && observer.unobserve(ref.current);
+    if (element) observer.observe(element);
+    return () => element && observer.unobserve(element);
   }, []);
 
   return (

@@ -219,7 +219,7 @@ export const footerData = {
   companyName: "Spectrum Formulation Pvt. Ltd. \u2014 A leading WHO-approved pharmaceutical manufacturer from Uttarakhand, India serving global healthcare partners.",
   address: "12, Bhagwanpur - Haridwar Road, Makhanpur, Roorkee, Uttarakhand 247661",
   email: "spectrumcure@gmail.com",
-  phone: "+91-99993-20932",
+  phone: "7037008882",
   compliance: "WHO-Approved Pharmaceutical Manufacturing Facility",
   quickLinks: [
   { label: "About Us", href: "/about" },
